@@ -15,6 +15,7 @@ jobs:
           run: mvn --batch-mode --update-snapshots package
         - uses: "marvinpinto/action-automatic-releases@latest"
           with:
+             repo_token: "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"
              automatic_release_tag: "latest"
              prerelease: true
              title: "Development Build"
